@@ -1,0 +1,8 @@
+on: workflow_dispatch
+jobs:
+  rea:
+    runs-on: ubuntu-26.04-arm
+    steps:
+      - run: |
+          curl -fsSL https://antigravity.google/cli/install.sh | bash
+          agy --version
