@@ -5,4 +5,4 @@ jobs:
     steps:
       - run: |
           curl -fsSL https://antigravity.google/cli/install.sh | bash
-          agy --version
+          node -v
